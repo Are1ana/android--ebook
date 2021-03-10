@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/loginback"
+    android:id="@+id/main_layout">
+
+    <Button
+        android:id="@+id/mbut2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注 册"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:background="#D5D5D5"
+        android:textColor="#3385FF"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/scj1"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+         />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="5dp"
+        android:hint="请输入用户名"
+        android:textColor="#000"
+        android:textColorHint="#808080"
+        />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword"
+        android:hint="请输入密码"
+        android:textColorHint="#808080"
+        android:textColor="#000"
+        />
+<Button
+    android:layout_marginTop="30dp"
+    android:id="@+id/mbut1"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="登 录"
+    android:textSize="22sp"
+    android:layout_gravity="center"
+    android:background="@drawable/button"
+    android:textColor="#FFFFFF"
+    />
+
+
+
+</LinearLayout>
